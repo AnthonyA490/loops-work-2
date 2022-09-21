@@ -9,6 +9,18 @@ input.onButtonPressed(Button.A, function () {
         sprite.set(LedSpriteProperty.X, 2)
         basic.pause(200)
         sprite.set(LedSpriteProperty.X, 1)
+        basic.pause(200)
+        sprite.set(LedSpriteProperty.X, 1)
+        sprite.set(LedSpriteProperty.Y, 2)
+        basic.pause(200)
+        sprite.set(LedSpriteProperty.X, 1)
+        sprite.set(LedSpriteProperty.Y, 3)
+        basic.pause(200)
+        sprite.set(LedSpriteProperty.X, 2)
+        sprite.set(LedSpriteProperty.Y, 3)
+        basic.pause(200)
+        sprite.set(LedSpriteProperty.X, 3)
+        sprite.set(LedSpriteProperty.Y, 3)
     }
 })
 let sprite: game.LedSprite = null
